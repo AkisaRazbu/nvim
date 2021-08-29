@@ -22,6 +22,7 @@ Plug 'bfrg/vim-cpp-modern'
 Plug 'tpope/vim-surround'
 Plug 'vimwiki/vimwiki'
 Plug 'rafi/awesome-vim-colorschemes'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 map <leader>n :set nonumber <CR>
@@ -36,6 +37,7 @@ map <leader>k 10k <CR>
 map <leader>j 10j <CR>
 
 filetype plugin on
+colorscheme PaperColor 
 
 autocmd BufNewFile *.cpp 0r ~/.config/nvim/templates/skeleton.cpp
 autocmd BufNewFile *.py 0r ~/.config/nvim/templates/skeleton.py
