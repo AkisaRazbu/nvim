@@ -1,9 +1,9 @@
-source ~/.config/nvim/configs/sets.vim
-source ~/.config/nvim/configs/keymaps.vim
-source ~/.config/nvim/configs/plugins.vim
-source ~/.config/nvim/configs/colorscheme.vim
-source ~/.config/nvim/configs/lsp-config.vim
+source ~/.config/nvim/config/sets.vim
+source ~/.config/nvim/config/keymaps.vim
+source ~/.config/nvim/config/plugins.vim
+source ~/.config/nvim/config/colorscheme.vim
+source ~/.config/nvim/config/lsp-config.vim
 
-luafile ~/.config/nvim/configs/compe-config.lua
-luafile ~/.config/nvim/configs/nvim-lspinstall.lua
-luafile ~/.config/nvim/configs/python-lsp.lua
+luafile ~/.config/nvim/config/compe-config.lua
+luafile ~/.config/nvim/config/nvim-lspinstall.lua
+luafile ~/.config/nvim/config/python-lsp.lua
